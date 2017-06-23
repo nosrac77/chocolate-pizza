@@ -4,40 +4,96 @@
     <meta charset="utf-8">
     <title>Chocolate Pizza!</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
   </head>
   <body>
 
     <nav>
       <img id="logo-img" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/logo.png?raw=true" alt="Logo">
-      <section id="logo-nav">
-        <h3 id="logo-header">Delicious</h3>
         <p id="logo-p-tag">THE BEST FOOD BLOG ON THE WEB</p>
-      </section>
-      <a href="https://gmail.com">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/mail-icon.png?raw=true" alt="Mail Icon" style="width:20px;height:20px;">
-      </a>
-      <a href="">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/rss-icon.png?raw=true" alt="RSS Icon" style="width:20px;height:20px;">
-      </a>
-      <a href="https://pinterest.com">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/pint-icon.png?raw=true" alt="Pinterest Icon" style="width:20px;height:20px;">
-      </a>
-      <a href="https://flickr.com">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/flic-icon.png?raw=true" alt="Flickr Icon" style="width:20px;height:20px;">
-      </a>
-      <a href="https://instagram.com">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/insta-icon.png?raw=true" alt="Instagram Icon" style="width:20px;height:20px;">
-      </a>
-      <a href="https://google.com">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/gp-icon.png?raw=true" alt="Google Plus Icon" style="width:20px;height:20px;">
-      </a>
-      <a href="https://twitter.com">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/twit-icon.png?raw=true" alt="Twitter Icon" style="width:20px;height:20px;">
-      </a>
-      <a href="https://facebook.com">
-        <img src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/fb-icon.png?raw=true" alt="Facebook Icon" style="width:20px;height:20px;border:0;">
-      </a>
+        <p id="logo-header">Delicious</p>
+        <a href="https://gmail.com">
+          <img class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/mail-icon.png?raw=true" alt="Mail Icon" style="width:20px;height:20px;">
+        </a>
+        <a href="">
+          <img id="two-icons" class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/rss-icon.png?raw=true" alt="RSS Icon" style="width:20px;height:20px;">
+        </a>
+        <a href="https://pinterest.com">
+          <img class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/pint-icon.png?raw=true" alt="Pinterest Icon" style="width:20px;height:20px;">
+        </a>
+        <a href="https://flickr.com">
+          <img class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/flic-icon.png?raw=true" alt="Flickr Icon" style="width:20px;height:20px;">
+        </a>
+        <a href="https://instagram.com">
+          <img class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/insta-icon.png?raw=true" alt="Instagram Icon" style="width:20px;height:20px;">
+        </a>
+        <a href="https://google.com">
+          <img class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/gp-icon.png?raw=true" alt="Google Plus Icon" style="width:20px;height:20px;">
+        </a>
+        <a href="https://twitter.com">
+          <img class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/twit-icon.png?raw=true" alt="Twitter Icon" style="width:20px;height:20px;">
+        </a>
+        <a href="https://facebook.com">
+          <img class="nav-icons" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/fb-icon.png?raw=true" alt="Facebook Icon" style="width:20px;height:20px;border:0;">
+        </a>
     </nav>
+
+    <div class="bar"></div>
+
+    <section id="pic-header-section">
+      <h1 id="pic-heading">Chocolate Pizza</h1>
+      <p id="date-posted">POSTED ON 15 DEC 2013 / DESSERTS</p>
+      <p id="print">PRINT</p>
+      <img id="print-icon" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/print-icon.png?raw=true" alt="Print Icon">
+    </section>
+
+    <img id="chocolate-pizza-img" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/choco-pizza.png?raw=true" alt="Chocolate Pizza Image">
+
+    <section>
+      <p class="recipe-paragraphs">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+      <p class="recipe-paragraphs">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in egg yolks. Set mixture in fridge and wait until the fig mixture is cooled.</p>
+      <p class="recipe-paragraphs">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+    </section>
+
+    <div id="recipe-content">
+      <section class="recipe-boxes" id="recipe-boxes-left">
+        <input type="checkbox" name="recipe" value=""> 1 1/2 cups milk<br>
+        <input type="checkbox" name="recipe" value=""> 1/2 cup mascarpone<br>
+        <input type="checkbox" name="recipe" value=""> 1/2 tsp pink salt<br>
+        <input type="checkbox" name="recipe" value=""> 1 lb Black Mason Figs<br>
+        <input type="checkbox" name="recipe" value=""> 1/2 cup brown sugar<br>
+        <input type="checkbox" name="recipe" value=""> 2-4 tbsp water<br>
+      </section>
+
+      <section class="recipe-boxes" id="recipe-boxes-right">
+        <input type="checkbox" name="recipe" value=""> 1 1/2 cups heavy cream<br>
+        <input type="checkbox" name="recipe" value=""> 1/3 granulated sugar<br>
+        <input type="checkbox" name="recipe" value=""> 2 egg yolks<br>
+        <input type="checkbox" name="recipe" value=""> 1 lemon, juiced<br>
+        <input type="checkbox" name="recipe" value=""> 2 tbsp butter<br>
+        <input type="checkbox" name="recipe" value=""> 1 cup honey roasted pecans, roughly chopped<br>
+      </section>
+    </div>
+
+    <div class="bar"></div>
+
+    <section id="author-section">
+      <img id="author-pic" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/van-pic.png?raw=true" alt="Author Pic">
+      <a id="share-button"href="https://sharerecipe.com">SHARE RECIPE</a>
+      <h3 id="author-header">Vanessa Stevenson</h3>
+      <p id="author-paragraph">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+    </section>
+
+    <div class="strikethrough" id="small-logo-div">
+      <img id="small-logo" src="https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/small-logo.png?raw=true" alt="Small Logo">
+    </div>
+
+    <footer>
+      <ul id="footer-content">
+        <li>Delicious &copy; 2013 &#149; All Rights Reserved.</li>
+        <li>Proudly published with Ghost.</li>
+      </ul>
+    </footer>
 
   </body>
 </html>
