@@ -1,26 +1,156 @@
 body {
-  padding-left: 200px;
-  padding-right: 200px;
+  margin: 0px 310px 0px 310px;
 }
 
-img {
+.nav-icons {
   display: inline-block;
   float: right;
   padding: 2px;
 }
 
 nav {
-  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.bar {
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  white 5px,
+  grey 7px
+);
+  margin: 20px 0px 20px 0px;
+  height: 15px;
+}
+
+#two-icons {
+  margin-left: 10px;
+}
+
+
+#logo-img {
+  float: left;
+  margin-right: 7px;
 }
 
 #logo-header {
+  display: inline-block;
   margin: 0px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
 }
 
 #logo-p-tag {
   margin: 0px;
+  float: left;
+  display: inline-block;
+  font-size: 10px;
 }
 
-#logo-img {
+#pic-header-section {
+  margin: 50px 0px 0px 0px;
+}
+
+#pic-heading {
+  margin: 0px 0px 5px 0px;
+}
+
+#date-posted {
+  margin: 0px;
+  display: inline;
+}
+
+#print-icon {
+  float:right;
+  height: 13px;
+}
+
+#print {
+  float: right;
+  display: inline;
+  margin: 0px;
+}
+
+#chocolate-pizza-img {
+  margin: 25px 0px 25px 0px;
+  width: 100%
+}
+
+.recipe-paragraphs {
+  text-indent: 25px;
+}
+
+#recipe-content {
+  background-image: url(https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/list-bg.png?raw=true);
+  box-shadow: 0px 10px 10px grey;
+  margin: 25px 0px 45px 0px;
+  padding: 30px;
+}
+
+#recipe-boxes-right {
+  float: right;
+  display: inline-block;
+}
+
+#recipe-boxes-left {
+  display: inline-block;
+}
+
+#author-section {
+  margin: 15px 0px 25px 0px;
+}
+
+#share-button {
+  float: right;
+  display: inline;
+  border-radius: 1px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid red;
+  background-color: red;
+  margin-bottom: 40px;
+  padding: 15px 30px 15px 30px;
+}
+
+#author-pic {
   float: left;
+  margin-right: 15px;
+}
+
+#author-header {
+  margin: 0px;
+}
+
+#author-paragraph {
+  margin: 0px;
+  display: inline;
+}
+
+#small-logo-div {
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+}
+
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: grey;
+}
+
+footer {
+  margin: 20px 0px 30px 0px;
+}
+
+#footer-content {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
 }
