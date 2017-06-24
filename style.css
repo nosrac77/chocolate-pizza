@@ -6,11 +6,42 @@ body {
   display: inline-block;
   float: right;
   padding: 2px;
+  margin-top: 10px;
 }
 
-nav {
-  margin-top: 25px;
-  margin-bottom: 40px;
+#two-icons {
+  margin-left: 10px;
+}
+
+#logo-img {
+  float: left;
+  margin-right: 7px;
+  width: 55px;
+  height: 55px;
+}
+
+#logo-text-section {
+  float: left;
+  display: block;
+}
+
+#logo-header {
+  margin: -8px 0px 0px 0px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+}
+
+#logo-p-tag {
+  display: inline;
+  font-family: 'Pangolin', cursive;
+  color: silver;
+  font-size: 12px;
+  margin: 0px;
+}
+
+#divider {
+  height: 10px;
+  margin: 25px 0px 75px 0px;
 }
 
 .bar {
@@ -24,41 +55,22 @@ nav {
   height: 15px;
 }
 
-#two-icons {
-  margin-left: 10px;
-}
-
-
-#logo-img {
-  float: left;
-  margin-right: 7px;
-}
-
-#logo-header {
-  display: inline-block;
-  margin: 0px;
-  font-family: 'Yellowtail', cursive;
-  font-size: 30px;
-}
-
-#logo-p-tag {
-  margin: 0px;
-  float: left;
-  display: inline-block;
-  font-size: 10px;
-}
-
 #pic-header-section {
   margin: 50px 0px 0px 0px;
 }
 
 #pic-heading {
-  margin: 0px 0px 5px 0px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  margin: 0px;
 }
 
 #date-posted {
-  margin: 0px;
   display: inline;
+  font-family: 'Pangolin', cursive;
+  font-size: 15px;
+  color: silver;
+  margin: 0px;
 }
 
 #print-icon {
@@ -69,23 +81,30 @@ nav {
 #print {
   float: right;
   display: inline;
+  font-family: 'Pangolin', cursive;
+  font-size: 12px;
+  color: silver;
   margin: 0px;
 }
 
 #chocolate-pizza-img {
-  margin: 25px 0px 25px 0px;
+  margin: 25px 0px 18px 0px;
   width: 100%
 }
 
 .recipe-paragraphs {
   text-indent: 25px;
+  font-size: 18px;
+  color: grey;
 }
 
 #recipe-content {
   background-image: url(https://github.com/codefellows/seattle-201n8/blob/master/class-10-js_debugging-wireframe_part_2/lab-assets/list-bg.png?raw=true);
+  font-family: 'Coming Soon', cursive;
+  font-size: 20px;
   box-shadow: 0px 10px 10px grey;
-  margin: 25px 0px 45px 0px;
-  padding: 30px;
+  margin: 25px 0px 55px 0px;
+  padding: 40px 50px 40px 50px;
 }
 
 #recipe-boxes-right {
@@ -106,9 +125,9 @@ nav {
   display: inline;
   border-radius: 1px;
   text-decoration: none;
+  font-family: 'Pangolin', cursive;
   color: white;
-  border: 1px solid red;
-  background-color: red;
+  background-color: #B60000;
   margin-bottom: 40px;
   padding: 15px 30px 15px 30px;
 }
@@ -123,8 +142,10 @@ nav {
 }
 
 #author-paragraph {
-  margin: 0px;
   display: inline;
+  font-size: 17px;
+  color: grey;
+  margin: 0px;
 }
 
 #small-logo-div {
@@ -142,7 +163,7 @@ nav {
   top: 50%;
   right: 0;
   border-top: 1px solid;
-  border-color: grey;
+  border-color: silver;
 }
 
 footer {
@@ -152,5 +173,7 @@ footer {
 #footer-content {
   list-style-type: none;
   text-align: center;
+  font-size: 14px;
+  color: silver;
   padding: 0px;
 }
